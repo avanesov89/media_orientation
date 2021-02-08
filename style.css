@@ -12,6 +12,10 @@ body {
     padding: 30px;
 }
 
+.blocks {
+  display: flex;
+}
+
 @media (orientation: landscape) {
     .blocks {
       flex-direction: row;

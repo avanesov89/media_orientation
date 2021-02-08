@@ -1,0 +1,25 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+
+.block {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+
+@media (orientation: landscape) {
+    .blocks {
+      flex-direction: row;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    ..blocks {
+      flex-direction: column;
+    }
+  }

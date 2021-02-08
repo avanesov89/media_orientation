@@ -19,7 +19,7 @@ body {
   }
   
   @media (orientation: portrait) {
-    ..blocks {
+    .blocks {
       flex-direction: column;
     }
   }

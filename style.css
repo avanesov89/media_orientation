@@ -16,14 +16,18 @@ body {
   display: flex;
 }
 
-@media (orientation: landscape) {
+@media screen and (min-width: 320px) and (orientation: landscape){
+
     .blocks {
       flex-direction: row;
     }
+
   }
   
-  @media (orientation: portrait) {
+  @media screen and (min-width: 320px) and (orientation: portrait){
+
     .blocks {
       flex-direction: column;
     }
+
   }
